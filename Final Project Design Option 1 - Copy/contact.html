@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alpinweiss</title>
+    <meta name="author" content="Chandra Carr">
+    <meta name="description" content="Escape from everyday life and spend a few warm and relaxing days in with us. Enjoy the refreshing mountain air. Discover the village.">
+
+    <!-- favicon -->
+     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Alpinweiss</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Accommodations">Accommodations</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </nav>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a (<span class="required">*</span>)
+            </p>
+        </section>
+            <img src="images/swiss-sunset.jpg" alt="fiery orange clouds rise over snow dusted mountain peaks. A sleepy village rests along the base of the mountains. A placid lake stretches at the foot of the village.">
+        <div id="form">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post" target="_blank">
+                
+                    <div class="col1">
+                        
+                        <!-- name  -->
+                         <div id="name">
+                            <label for="full-name">Full Name<span class="required">*</span></label>
+                            <input type="text" name="full-name" id="full-name" required>
+                        </div>
+
+                        <!-- email  -->
+                         <div id="email">
+                            <label for="my-email">Email<span class="required">*</span></label>
+                            <input type="email" name="my-email" id="my-email" required>
+                        </div>
+
+                        <!-- phone  -->
+                         <div id="phone">
+                            <label for="my-phone">Phone</label>
+                            <input type="tel" name="my-phone" id="my-phone">
+                        </div>
+
+                    <!-- contact method  -->
+
+                        <div id="radio">
+                            <fieldset>
+                                <legend>Preferred Contact Method</legend>
+                                <input type="radio" name="contact-pref" id="pref-email" checked required>
+                                <label for="pref-email">Email</label>
+                                <input type="radio" name="contact-pref" id="pref-phone">
+                                <label for="pref-phone">Phone</label>
+                            </fieldset>
+                        </div>
+
+                    <!-- Comment field  -->
+                        <div id="comments">
+                            <label for="my-comments">Comments</label>
+                            <textarea name="my-comments" id="my-comments"></textarea>
+                        </div>
+
+                    <!-- Submit button  -->
+                        <div id="button">
+                            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                        </div>
+                    </div>
+            
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Copyright &copy;2024 - Alpinweiss</p>
+        <p>This page is for educational purposes only</p>
+    </footer>
+</body>
